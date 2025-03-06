@@ -1,0 +1,21 @@
+.icon{
+    color: green;
+    font-size: 50px
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+.child{
+    background-color: blue;
+}
+
+@media only screen and (max-height:500px) and (max-width:1000px){
+    body{
+        background-color: beige;
+        color: brown;
+    }
+}
