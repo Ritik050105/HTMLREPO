@@ -1,8 +1,8 @@
-let checkLogin = () => {
-    let user = document.getElementById('uname').value;
-    let pass = document.getElementById('pass').value;
-    if (user === pass) 
-        {alert("Hi " + user + ", login successful!"); 
-    }
-};
-document.getElementById('btn').addEventListener('click', checkLogin);
+let itemList = [];
+let addItem = () =>{
+    let item = document.getElementById('todo').value;
+    itemList.push(item);
+    console.log(itemList);
+    document.getElementById('todo').value="";
+}
+document.getElementById('btn2').addEventListener('Click',addItem);
