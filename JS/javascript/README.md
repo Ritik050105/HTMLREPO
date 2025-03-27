@@ -94,3 +94,8 @@ function deleteItem(id){
     getItem();
 }
 document.getElementById('btn2').addEventListener('click',addItem);
+
+
+27/03/25:
+local storage: is a web storage feature that allows web application to store data in user browser
+getitem ->get the item from the local storage
