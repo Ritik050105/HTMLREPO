@@ -1,0 +1,105 @@
+SDLC:
+
+
+STLC:
+
+
+converting long url short url:
+helpful - bitly.inc
+
+REACT JS:
+single page applications(SPAs)
+facebook meta community developed 
+it is a reusable UI components(page/file)
+it is JS library developed by facebook for building UI
+Core Features :component based , declarative, virtual DOM :Updates the UI efficiently without interacting directly with the browser's DOM
+it is a SEO(search engine optimization) friendly
+page loading-rendering
+why use react?
+reusable UI components, fast rendering, strong ecosystem, easy to learn
+the copmponents first letter must be in capital letter
+How to create a react app?
+
+
+Angular JS:
+useful for replication
+
+REACT NATIVE:
+mobile application
+
+REDX:
+
+JSX(JS XML-JavaScript Extensiable Markup Language):
+
+To create a project in (cmd: npm):
+cmd
+mkdir foldername
+cd foldername
+npm create vite
+project name =>react-app
+react
+javascript
+cd folder name
+npm install
+npm run dev
+default react port :5173
+
+structure :node modules public src index.html package.json readme.md
+
+npm official website :npmjs.com
+
+(.svg) => scalable vector graphics
+
+src:
+app.jsx:
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
+
+export default App
+
+main.jsx
+
+
+
+
+Export method :naming method, default method
+
+how to import the css file?
+import '../App.css';
+
+Bootstrap:
+npm i bootstrap
+npm i bootstrap@4.6.0
+
+how to import the images?
